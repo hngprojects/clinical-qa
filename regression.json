@@ -71,8 +71,8 @@
               "script": {
                 "exec": [
                   "",
-                  "    pm.test(\"Status is 401 or 429\", function () {",
-                  "        pm.expect(pm.response.code).to.be.oneOf([401, 429]);",
+                  "    pm.test(\"Status is 409\", function () {",
+                  "        pm.expect(pm.response.code).to.equal(409);",
                   "    });",
                   "",
                   "pm.test(\"Response body contains an error message or detail\", function () {",
