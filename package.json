@@ -1,0 +1,22 @@
+{
+  "name": "regression-api-automation",
+  "version": "1.0.0",
+  "description": "A complete regression test suite for the **ClinSight API MVP**, covering all critical authentication and core feature endpoints.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "test:postman": "newman run ./regression-api-automation/regression.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hngprojects/clinical-qa.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/hngprojects/clinical-qa/issues"
+  },
+  "homepage": "https://github.com/hngprojects/clinical-qa#readme"
+}
